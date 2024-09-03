@@ -1,0 +1,12 @@
+{
+    "name": "pt.dika/api-project-android",
+    "authors": [
+        {
+            "name": "Trisa Sarifatul Anisak",
+            "email": "trisasarifatuanisa@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}

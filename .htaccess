@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /Api-Project-Android/
+
+# Aturan untuk menangani URL tanpa nama file untuk autentikasi
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^authentikasi/(register|login)$ authentikasi/$1_user.php [QSA,L]
+
+# Tambahkan aturan lain sesuai kebutuhan
